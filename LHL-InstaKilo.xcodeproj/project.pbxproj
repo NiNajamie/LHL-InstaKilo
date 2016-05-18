@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C0A3D31CECDC40008AF63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0A3D21CECDC40008AF63E /* main.m */; };
+		96C0A3D61CECDC40008AF63E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0A3D51CECDC40008AF63E /* AppDelegate.m */; };
+		96C0A3D91CECDC40008AF63E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0A3D81CECDC40008AF63E /* ViewController.m */; };
+		96C0A3DC1CECDC40008AF63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C0A3DA1CECDC40008AF63E /* Main.storyboard */; };
+		96C0A3DE1CECDC40008AF63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C0A3DD1CECDC40008AF63E /* Assets.xcassets */; };
+		96C0A3E11CECDC40008AF63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C0A3DF1CECDC40008AF63E /* LaunchScreen.storyboard */; };
+		96C0A3ED1CECF44A008AF63E /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0A3EC1CECF44A008AF63E /* MyCollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96C0A3CE1CECDC40008AF63E /* LHL-InstaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LHL-InstaKilo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C0A3D21CECDC40008AF63E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96C0A3D41CECDC40008AF63E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96C0A3D51CECDC40008AF63E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96C0A3D71CECDC40008AF63E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96C0A3D81CECDC40008AF63E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96C0A3DB1CECDC40008AF63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96C0A3DD1CECDC40008AF63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96C0A3E01CECDC40008AF63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96C0A3E21CECDC40008AF63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C0A3EB1CECF44A008AF63E /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
+		96C0A3EC1CECF44A008AF63E /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C0A3CB1CECDC40008AF63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C0A3C51CECDC40008AF63E = {
+			isa = PBXGroup;
+			children = (
+				96C0A3D01CECDC40008AF63E /* LHL-InstaKilo */,
+				96C0A3CF1CECDC40008AF63E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C0A3CF1CECDC40008AF63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C0A3CE1CECDC40008AF63E /* LHL-InstaKilo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C0A3D01CECDC40008AF63E /* LHL-InstaKilo */ = {
+			isa = PBXGroup;
+			children = (
+				96C0A3D41CECDC40008AF63E /* AppDelegate.h */,
+				96C0A3D51CECDC40008AF63E /* AppDelegate.m */,
+				96C0A3D71CECDC40008AF63E /* ViewController.h */,
+				96C0A3D81CECDC40008AF63E /* ViewController.m */,
+				96C0A3DA1CECDC40008AF63E /* Main.storyboard */,
+				96C0A3EB1CECF44A008AF63E /* MyCollectionViewController.h */,
+				96C0A3EC1CECF44A008AF63E /* MyCollectionViewController.m */,
+				96C0A3DD1CECDC40008AF63E /* Assets.xcassets */,
+				96C0A3DF1CECDC40008AF63E /* LaunchScreen.storyboard */,
+				96C0A3E21CECDC40008AF63E /* Info.plist */,
+				96C0A3D11CECDC40008AF63E /* Supporting Files */,
+			);
+			path = "LHL-InstaKilo";
+			sourceTree = "<group>";
+		};
+		96C0A3D11CECDC40008AF63E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C0A3D21CECDC40008AF63E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C0A3CD1CECDC40008AF63E /* LHL-InstaKilo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C0A3E51CECDC40008AF63E /* Build configuration list for PBXNativeTarget "LHL-InstaKilo" */;
+			buildPhases = (
+				96C0A3CA1CECDC40008AF63E /* Sources */,
+				96C0A3CB1CECDC40008AF63E /* Frameworks */,
+				96C0A3CC1CECDC40008AF63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LHL-InstaKilo";
+			productName = "LHL-InstaKilo";
+			productReference = 96C0A3CE1CECDC40008AF63E /* LHL-InstaKilo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C0A3C61CECDC40008AF63E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Asuka Nakagawa";
+				TargetAttributes = {
+					96C0A3CD1CECDC40008AF63E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6A3B9S8TK9;
+					};
+				};
+			};
+			buildConfigurationList = 96C0A3C91CECDC40008AF63E /* Build configuration list for PBXProject "LHL-InstaKilo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96C0A3C51CECDC40008AF63E;
+			productRefGroup = 96C0A3CF1CECDC40008AF63E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C0A3CD1CECDC40008AF63E /* LHL-InstaKilo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C0A3CC1CECDC40008AF63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0A3E11CECDC40008AF63E /* LaunchScreen.storyboard in Resources */,
+				96C0A3DE1CECDC40008AF63E /* Assets.xcassets in Resources */,
+				96C0A3DC1CECDC40008AF63E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C0A3CA1CECDC40008AF63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C0A3ED1CECF44A008AF63E /* MyCollectionViewController.m in Sources */,
+				96C0A3D91CECDC40008AF63E /* ViewController.m in Sources */,
+				96C0A3D61CECDC40008AF63E /* AppDelegate.m in Sources */,
+				96C0A3D31CECDC40008AF63E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96C0A3DA1CECDC40008AF63E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C0A3DB1CECDC40008AF63E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96C0A3DF1CECDC40008AF63E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C0A3E01CECDC40008AF63E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C0A3E31CECDC40008AF63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96C0A3E41CECDC40008AF63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96C0A3E61CECDC40008AF63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LHL-InstaKilo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.LHL-InstaKilo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96C0A3E71CECDC40008AF63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LHL-InstaKilo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "A.LHL-InstaKilo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C0A3C91CECDC40008AF63E /* Build configuration list for PBXProject "LHL-InstaKilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0A3E31CECDC40008AF63E /* Debug */,
+				96C0A3E41CECDC40008AF63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C0A3E51CECDC40008AF63E /* Build configuration list for PBXNativeTarget "LHL-InstaKilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C0A3E61CECDC40008AF63E /* Debug */,
+				96C0A3E71CECDC40008AF63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C0A3C61CECDC40008AF63E /* Project object */;
+}
