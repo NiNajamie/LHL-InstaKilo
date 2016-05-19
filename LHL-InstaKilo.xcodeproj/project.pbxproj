@@ -14,6 +14,8 @@
 		96C0A3DE1CECDC40008AF63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C0A3DD1CECDC40008AF63E /* Assets.xcassets */; };
 		96C0A3E11CECDC40008AF63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C0A3DF1CECDC40008AF63E /* LaunchScreen.storyboard */; };
 		96C0A3ED1CECF44A008AF63E /* MyCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0A3EC1CECF44A008AF63E /* MyCollectionViewController.m */; };
+		96C0A3F01CECFC1F008AF63E /* PhotoObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0A3EF1CECFC1F008AF63E /* PhotoObjects.m */; };
+		96C0A3F61CED1DF0008AF63E /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C0A3F51CED1DF0008AF63E /* CustomCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		96C0A3E21CECDC40008AF63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C0A3EB1CECF44A008AF63E /* MyCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewController.h; sourceTree = "<group>"; };
 		96C0A3EC1CECF44A008AF63E /* MyCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewController.m; sourceTree = "<group>"; };
+		96C0A3EE1CECFC1F008AF63E /* PhotoObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoObjects.h; sourceTree = "<group>"; };
+		96C0A3EF1CECFC1F008AF63E /* PhotoObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoObjects.m; sourceTree = "<group>"; };
+		96C0A3F41CED1DF0008AF63E /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		96C0A3F51CED1DF0008AF63E /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +69,13 @@
 			children = (
 				96C0A3D41CECDC40008AF63E /* AppDelegate.h */,
 				96C0A3D51CECDC40008AF63E /* AppDelegate.m */,
-				96C0A3D71CECDC40008AF63E /* ViewController.h */,
-				96C0A3D81CECDC40008AF63E /* ViewController.m */,
 				96C0A3DA1CECDC40008AF63E /* Main.storyboard */,
 				96C0A3EB1CECF44A008AF63E /* MyCollectionViewController.h */,
 				96C0A3EC1CECF44A008AF63E /* MyCollectionViewController.m */,
+				96C0A3F41CED1DF0008AF63E /* CustomCollectionViewCell.h */,
+				96C0A3F51CED1DF0008AF63E /* CustomCollectionViewCell.m */,
+				96C0A3EE1CECFC1F008AF63E /* PhotoObjects.h */,
+				96C0A3EF1CECFC1F008AF63E /* PhotoObjects.m */,
 				96C0A3DD1CECDC40008AF63E /* Assets.xcassets */,
 				96C0A3DF1CECDC40008AF63E /* LaunchScreen.storyboard */,
 				96C0A3E21CECDC40008AF63E /* Info.plist */,
@@ -79,6 +87,8 @@
 		96C0A3D11CECDC40008AF63E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96C0A3D71CECDC40008AF63E /* ViewController.h */,
+				96C0A3D81CECDC40008AF63E /* ViewController.m */,
 				96C0A3D21CECDC40008AF63E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -158,6 +168,8 @@
 				96C0A3ED1CECF44A008AF63E /* MyCollectionViewController.m in Sources */,
 				96C0A3D91CECDC40008AF63E /* ViewController.m in Sources */,
 				96C0A3D61CECDC40008AF63E /* AppDelegate.m in Sources */,
+				96C0A3F61CED1DF0008AF63E /* CustomCollectionViewCell.m in Sources */,
+				96C0A3F01CECFC1F008AF63E /* PhotoObjects.m in Sources */,
 				96C0A3D31CECDC40008AF63E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +319,7 @@
 				96C0A3E71CECDC40008AF63E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
